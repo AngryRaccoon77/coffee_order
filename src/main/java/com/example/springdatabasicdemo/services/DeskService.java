@@ -7,9 +7,9 @@ import java.util.Optional;
 
 public interface DeskService<ID> {
 
-    DeskDto register(DeskDto student);
+    DeskDto register(DeskDto desk);
 
-    void expel(DeskDto student);
+    void expel(DeskDto desk);
 
     void expel(ID id);
 
